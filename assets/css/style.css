@@ -246,6 +246,10 @@ body {
 .POPULAR_SECTION {
   margin-top: 150px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .POPULAR_SECTION img {
   width: 100%;
@@ -271,12 +275,16 @@ body {
 .Card {
   background-color: hsl(19, 100%, 97%);
   width: 250px;
-  margin-left: 25px;
   margin-bottom: 20px;
   border-radius: 25px;
   padding: 35px 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.5s;
+  
+}
+.mrg{
+  margin-left: 20px;
+
 }
 .Card:hover {
   box-shadow: 0 4px 8px 0 hsl(19, 64%, 52%, 0.5),
@@ -364,7 +372,7 @@ body {
 .div6 img {
   width: 100%;
   margin-top: 250px;
-  margin-left: 100px;
+
 }
 .div5 button {
   margin-top: 30px;
@@ -375,6 +383,7 @@ body {
   padding: 0 200px;
   margin-bottom: 160px;
   display: block;
+  width: 100%;
 }
 
 .Recently2_sec img {
@@ -389,6 +398,7 @@ body {
   background-color: hsl(19, 16%, 15%);
   padding:20px 30px;
   border-radius: 20px;
+  width: 100%;
 }
 .textt {
   margin-top: 50px;
@@ -426,7 +436,9 @@ position: absolute;
 top: 60%;
 right: 5px;
 transform: translateY(-50%);
+width: 50%;
 }
+
 footer{
   background-color: hsl(19, 100%, 96%);
 
@@ -520,6 +532,13 @@ margin-left: 10px;
   .div6 img {
     width: 80%;
     margin-top: 30px;
+   
+  }
+  .div6{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   .Recently2_sec {
     margin-top: 170px;
@@ -530,6 +549,58 @@ margin-left: 10px;
     flex-direction: column;
     }
   
+.secc {
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  background-color: hsl(19, 16%, 15%);
+  padding:10px;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+}
+.textt {
+  margin-top: 50px;
+}
+
+.textt h2 {
+  color: hsl(19, 64%, 54%);
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+.textt h1 {
+  font-family: "Lora", serif;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 10px;
+}
+.sersh input{
+outline: none;
+border: none;
+width: 100%;
+height: 50px;
+padding:40px 20px;
+background-color: white;
+border-radius: 50px;
+margin-top: 20px;
+font-size: 22px;
+}
+.sersh{
+  position: relative;
+
+}
+.sersh button{
+  cursor: pointer;
+position: absolute;
+top: 60%;
+right: 5px;
+transform: translateY(-50%);
+}
+.mrg{
+  margin-left: 0px;
+
+}
 }
 @media only screen and (max-width: 990px) and (min-width: 767px) {
   .btnn {
